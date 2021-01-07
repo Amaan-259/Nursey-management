@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html land="eng">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+       <title>Nursery management system</title>
+   </head>
+
+<nav class="navbar navbar-dark navbar-expand-sm bg-info fixed-top">
+    <div class="container">
+       <a class="navbar-brand" href="./home.html">AAMA NURSERY SYSTEM</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item "><a class="nav-link" href="./home.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item "><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Aboutus</a></li>
+                <li class="nav-item"><a class="nav-link" href="./order.html"><span class="fa fa-list fa-lg"></span> Order</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="./register.html"><span class="fa fa-sign-in fa-lg"></span> Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="./myorders.html"><span class="fa fa-shopping-cart fa-lg"></span> Myorders</a></li>
+            </ul>            
+    </div>
+</nav>
+<br><br><br>
+<body>
+    <div class="row offset-1">
+    <h2><strong>Send Us Your Feedback</strong></h2>
+    </div>
+    <form>
+        <div class="form-group row">
+            <label for="firstname" class="col-md-1 offset-1 col-form-label">First Name:</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="lastname" class="col-md-1 offset-1 col-form-label">Last Name:</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="uid" class="col-md-1 offset-1 col-form-label">User-Id:</label>
+            <div class="col-md-4">
+                <input type="number" class="form-control" id="uid" name="uid" placeholder="User-Id">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="telephone" class="col-md-1 offset-1 col-form-label">Contact Tel:</label>
+            <div class="col-md-4">
+                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Contact Tel">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="emailid" class="col-md-1 offset-1 col-form-label">Email</label>
+            <div class="col-md-4">
+                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-2 offset-md-2">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                    <label class="form-check-label" for="approve">
+                        <strong>May we contact you?</strong>
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select class="form-control">
+                    <option>Tel.</option>
+                    <option>Email</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="feedback" class="col-md-1 offset-1 col-form-label">Your Feedback</label>
+            <div class="col-md-4">
+                <textarea class="form-control" id="feedback" name="feedback" rows="6"></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-info">Send Feedback</button>
+            </div>
+        </div>   
+    </form>
+    <footer>
+        <div class=" row jumbotron col-12">
+            <div class="col-2 offset-1">
+                <h6><strong>Links:</strong></h6>
+                <a href ="./home.html"><u>Home</u></a><br>
+                <a href ="./aboutus.html"><u>About us</u><br>
+                <a href ="./order.html"><u>Menu</u></a>
+            </div>
+            <div class="col-2">
+                <h6><span class="fa fa-address-card"></span><strong>Address:</strong></h6>
+                <p>53 /, Shiv Centre, Vashi, Mumbai, Maharastra, pin-411078, <span class="fa fa-phone"></span> 02227899351, <br><span class="fa fa-envelope"></span> aama@gmail.com</p>
+            </div>
+            <div class="offset-1 col-2">
+                <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a><br><br>
+                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a><br><br>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon" href="http://gmail.com/"><i class="fa fa-envelope-o"></i></a>
+            </div>   
+        </div>
+    </footer>
+</body>
+</html>
